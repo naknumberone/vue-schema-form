@@ -1,0 +1,87 @@
+{
+  "title": "My awesome form",
+  "fields": {
+    "num1": {
+      "label": "Number #1",
+      "type": "number",
+      "rules": [
+        {
+          "type": "range",
+          "min": 0,
+          "max": 10,
+          "message": "Value must be between 0 and 10"
+        }
+      ]
+    },
+    "op1": {
+      "label": "Operation #1",
+      "type": "select",
+      "options": [
+        {
+          "title": "+",
+          "value": "+"
+        },
+        {
+          "title": "-",
+          "value": "-"
+        },
+        {
+          "title": "*",
+          "value": "*"
+        }
+      ],
+      "rules": [
+        {
+          "type": "required",
+          "message": "Required!"
+        }
+      ]
+    },
+    "num2": {
+      "label": "Number #2",
+      "type": "number",
+      "rules": [
+        {
+          "type": "range",
+          "min": 0,
+          "max": 100,
+          "message": "Value must be between 0 and 100"
+        }
+      ]
+    },
+    "op2": {
+      "label": "Operation #2",
+      "type": "select",
+      "options": [
+        {
+          "title": "+",
+          "value": "+"
+        },
+        {
+          "title": "-",
+          "value": "-"
+        },
+        {
+          "title": "*",
+          "value": "*"
+        }
+      ],
+      "rules": [
+        {
+          "type": "required",
+          "message": "Required!"
+        }
+      ]
+    },
+    "number3": {
+      "label": "Number #3",
+      "type": "number",
+      "rules": [
+        {
+          "type": "required",
+          "message": "Required!"
+        }
+      ]
+    }
+  }
+}
